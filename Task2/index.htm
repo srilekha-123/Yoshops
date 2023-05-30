@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Employee Payroll Management System</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+
+        <!-- <input type="text" id="i1"> -->
+        <h4>Employee PayRoll Management System</h4>
+
+        <div class="one">
+        <div class="left-main">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="i1"></td>
+                    <td>Address</td>
+                    <td><input type="text" id="i2"></td>
+                </tr>
+                <tr>
+                    <td>Employerid</td>
+                    <td><input type="text" id="i3"></td>
+                    <td>DON</td>
+                    <td><input type="date" id="i4"></td>
+                </tr>
+                <tr>
+                    <td>Hours Worked</td>
+                    <td><input type="number" id="i5"></td>
+                    <td>Hourly Rate</td>
+                    <td><input type="number" id="i6"></td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td><input type="number" id="i7"></td>
+                    <td>OverTime</td>
+                    <td><input type="number" id="i8"></td>
+                </tr>
+                <tr>
+                    <td>Gross Pay</td>
+                    <td><input type="number" id="i9"></td>
+                    <td>Net Pay</td>
+                    <td><input type="number" id="i10"></td>
+                </tr>
+            </table>
+            <div class="button-table">
+            <table>
+                <tr>
+                    <td><button onclick="check(1)">Weekly Salary</button></td>
+                    <td><button onclick="check(2)">Reset</button></td>
+                    <td><button onclick="check(3)">View Payslip</button></td>
+                    <td><button onclick="check(4)">Exit System</button></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <div class="right-main">
+            <table>
+                <caption style="color: white;" id="date">Date</caption>
+                <tr>
+                    <th colspan="2" style="color: black;text-align: center;">Pay Slip</th>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td id="i11">-</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td id="i12">-</td>
+                </tr>
+                <tr>
+                    <td>Employerid:</td>
+                    <td id="i13">-</td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td id="i14">-</td>
+                </tr>
+                <tr>
+                    <td>Hours Worked:</td>
+                    <td id="i15">-</td>
+                </tr>
+                <tr>
+                    <td>Net Payable:</td>
+                    <td id="i16">-</td>
+                </tr>
+                <tr>
+                    <td>Wages Per Hour:</td>
+                    <td id="i17">-</td>
+                </tr>
+                <tr>
+                    <td>Tax Paid:</td>
+                    <td id="i18">-</td>
+                </tr>
+                <tr>
+                    <td>Payable:</td>
+                    <td id="i19">-</td>
+                </tr>                
+            </table>
+        </div>
+    </div>
+
+    </body>
+</html>

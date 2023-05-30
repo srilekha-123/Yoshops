@@ -1,0 +1,110 @@
+*{
+    color: white;
+}
+
+h4{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 10px solid lightblue;
+}
+
+.one{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    /* margin: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-main{
+    padding: 30px;
+    top: auto;
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.right-main{
+    margin-left: 30px;
+    padding: 20px;
+    width: 50%;
+    padding: 30px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.right-main table{
+    width: 80%;
+    align-self: center;
+    background-color: white;
+    border: 5px solid lightblue;
+    /* padding: 30px; */
+}
+
+th{
+    padding: 10px;
+    text-align: center;
+}
+
+.right-main td{
+    text-align: justify;
+    color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+table{
+    padding: 10px;   
+}
+
+tr{
+    padding: 20px;
+
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+
+input{
+    border: 5px solid lightblue;
+    width: 100%;
+    color: black;
+}
+
+.button-table{
+    background-color: white;
+    width: 100%;
+    border: 5px solid lightblue;
+}
+
+
+.button-table table{
+    width: 100%;
+}
+
+td button{
+    width: 100%;
+    height: 40px;
+    color: black;
+}
